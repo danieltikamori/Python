@@ -1,39 +1,49 @@
-#Data Types
+# Python Data Types
 
-#String
+## String
 
+```python
 print("Hello"[4]) #Prints the 5th character (count begins at 0)
 print("123" + "456")
+```
 
-#Integer
+## Integer
 
+```python
 print(123 + 456)
 
 # _ is the same of , in large numbers like 123,456,789.
 # 123_45678 = 12345678
+```
 
-#Float
-#Floating point number
+## Float
 
-# Numbers with decimals
+### Floating point number
 
+Numbers with decimals
+
+```python
 pi = 3.14159
 pi_times_hundred = 314.159
+```
 
-#Boolean
+## Boolean
 
 True
 False
 
-# Checking data type using function type()
+## Checking data type using function type()
 
+```python
 type("variable or whatever")
 
 type("username")
 print(type(pi))
+```
 
-# Converting data type to another (type casting)
+## Converting data type to another (type casting)
 
+```python
 # To string - str()
 new_string_pi = str(pi)
 
@@ -49,3 +59,4 @@ rounded_pi = round(pi, 2) # Round to 2 decimals
 # There's really various ways to round number with Python. See documentation.
 # Important to note that if the last decimal is 0, it is "omitted", use the function below to show the 0:
 rounded_pi = "{:.2f}".format(pi)
+```
