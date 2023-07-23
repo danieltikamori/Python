@@ -41,7 +41,7 @@ else:
     print("This is an odd number.")
 ```
 
-## Nested statements and elif statements
+## Nested statements and elif (else if) statements
 
 ```python
 if condition1:
