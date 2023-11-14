@@ -26,7 +26,7 @@ def caesar(start_text: str, shift_amount: int, cipher_direction: str) -> None:
             end_text += alphabet[new_position]
         else:
             end_text += char
-        
+
     print(f"Here's the {cipher_direction}d result: {end_text}")
 
 print(logo)
