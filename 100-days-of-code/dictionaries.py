@@ -38,7 +38,7 @@ person = {
 person["age"] = 31
 print(person["age"]) # Output: 31
 
-#  Adding a New Key-Value Pair
+#  Adding a New Key-Value Pair #1
 #  You can add a new key-value pair to a dictionary by using the update() method.
 
 #  Example:
@@ -49,6 +49,16 @@ person = {
 }
 
 person.update({"country": "USA"})
+print(person) # Output: {'name': 'John', 'age': 30, 'city': 'New York', 'country': 'USA'}
+
+# Another way to add items to a dictionary #2
+person = {
+  "name": "John",
+  "age": 30,
+  "city": CITY_1
+}
+
+person["country"] = "USA"
 print(person) # Output: {'name': 'John', 'age': 30, 'city': 'New York', 'country': 'USA'}
 
 #  Removing a Key-Value Pair
